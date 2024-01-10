@@ -1,7 +1,12 @@
 [
     {
+        "title":"Dashboard",
+        "icon":"bi bi-speedometer",
+        "path": "/dashboard"
+    },
+    {
         "title": "Repo Agent",
-        "icon": "bi bi-box-seam-fill",
+        "icon": "bi bi-back",
         "childrens": [
             {
                 "title": "Add Repo Agent",
@@ -22,24 +27,16 @@
         ]
     },
     {
-        "title": "Repo Agent",
-        "icon": "bi bi-box-seam-fill",
+        "title": "Office Staff",
+        "icon": "bi bi-back",
         "childrens": [
             {
-                "title": "Add Repo Agent",
-                "path": "/add-repo-agent"
+                "title": "Add Office Staff",
+                "path": "/add-office-staff-agent"
             },
             {
-                "title": "Repo Agent Details",
-                "path": "/repo-agent-details"
-            },
-            {
-                "title": "Generate ID Card",
-                "path": "/generate-id-card"
-            },
-            {
-                "title": "ID Card Details",
-                "path": "/id-card-details"
+                "title": "Office Staff Details",
+                "path": "/office-staff-details"
             }
         ]
     }
