@@ -28,4 +28,4 @@ jobs:
     - run: sudo npm run build
     - run: sudo chmod -R 777 dist/
     - run: sudo chmod -R 777 node_modules/
-    - run: pm2 restart 3
+    - run: pm2 restart reactjs
